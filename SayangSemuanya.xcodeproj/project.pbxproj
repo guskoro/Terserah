@@ -19,6 +19,8 @@
 		3FE5633327FA9C2E00A0821A /* Onboarding2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633227FA9C2E00A0821A /* Onboarding2.storyboard */; };
 		3FE5633727FA9DBB00A0821A /* Onboarding3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633627FA9DBB00A0821A /* Onboarding3.storyboard */; };
 		3FE5633927FA9DC500A0821A /* Onboarding4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */; };
+		65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */; };
+		65CC1CA227FB200F00B452DD /* FoodListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		3FE5633227FA9C2E00A0821A /* Onboarding2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding2.storyboard; sourceTree = "<group>"; };
 		3FE5633627FA9DBB00A0821A /* Onboarding3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding3.storyboard; sourceTree = "<group>"; };
 		3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding4.storyboard; sourceTree = "<group>"; };
+		65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewCell.swift; sourceTree = "<group>"; };
+		65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 			children = (
 				3FE5632F27FA9BE500A0821A /* Onboarding */,
 				3F63A5D927F55FCD0038C286 /* AppDelegate.swift */,
+				65CC1C9C27FB1F9500B452DD /* CustomViews */,
 				3F63A5DB27F55FCD0038C286 /* SceneDelegate.swift */,
 				3F63A5DD27F55FCD0038C286 /* ViewController.swift */,
 				3F63A5DF27F55FCD0038C286 /* Main.storyboard */,
@@ -142,6 +147,31 @@
 				3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		65CC1C9C27FB1F9500B452DD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				65CC1C9D27FB1FA100B452DD /* TableViewsCell */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		65CC1C9D27FB1FA100B452DD /* TableViewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				65CC1C9E27FB1FD300B452DD /* FoodListTableViewCell */,
+			);
+			path = TableViewsCell;
+			sourceTree = "<group>";
+		};
+		65CC1C9E27FB1FD300B452DD /* FoodListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */,
+				65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */,
+			);
+			path = FoodListTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +280,7 @@
 			files = (
 				3F63A5E627F55FD10038C286 /* LaunchScreen.storyboard in Resources */,
 				3F63A5E327F55FD10038C286 /* Assets.xcassets in Resources */,
+				65CC1CA227FB200F00B452DD /* FoodListTableViewCell.xib in Resources */,
 				3FE5633327FA9C2E00A0821A /* Onboarding2.storyboard in Resources */,
 				3F63A5E127F55FCD0038C286 /* Main.storyboard in Resources */,
 				3FE5633927FA9DC500A0821A /* Onboarding4.storyboard in Resources */,
@@ -279,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F63A5DE27F55FCD0038C286 /* ViewController.swift in Sources */,
+				65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */,
 				3F63A5DA27F55FCD0038C286 /* AppDelegate.swift in Sources */,
 				3F63A5DC27F55FCD0038C286 /* SceneDelegate.swift in Sources */,
 			);
