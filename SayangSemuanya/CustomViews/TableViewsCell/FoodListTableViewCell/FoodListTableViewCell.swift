@@ -15,4 +15,10 @@ class FoodListTableViewCell: UITableViewCell {
     
     @IBOutlet weak var descriptionLabel: UILabel!
     
+    func setup(food: Food) {
+        titleLabel.text = food.name
+        descriptionLabel.text = food.description
+        foodImageView.image = #imageLiteral(resourceName: "foodList")
+    }
+    
 }
