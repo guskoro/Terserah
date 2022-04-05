@@ -16,6 +16,7 @@
 		3F63A5F127F55FD10038C286 /* SayangSemuanyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63A5F027F55FD10038C286 /* SayangSemuanyaTests.swift */; };
 		3F63A5FB27F55FD10038C286 /* SayangSemuanyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63A5FA27F55FD10038C286 /* SayangSemuanyaUITests.swift */; };
 		3F63A5FD27F55FD10038C286 /* SayangSemuanyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63A5FC27F55FD10038C286 /* SayangSemuanyaUITestsLaunchTests.swift */; };
+		3FD679A127FCF93700D3474F /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD679A027FCF93700D3474F /* OnboardingViewController.swift */; };
 		3FE5633327FA9C2E00A0821A /* Onboarding2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633227FA9C2E00A0821A /* Onboarding2.storyboard */; };
 		3FE5633727FA9DBB00A0821A /* Onboarding3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633627FA9DBB00A0821A /* Onboarding3.storyboard */; };
 		3FE5633927FA9DC500A0821A /* Onboarding4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */; };
@@ -56,6 +57,7 @@
 		3F63A5F627F55FD10038C286 /* SayangSemuanyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayangSemuanyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F63A5FA27F55FD10038C286 /* SayangSemuanyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayangSemuanyaUITests.swift; sourceTree = "<group>"; };
 		3F63A5FC27F55FD10038C286 /* SayangSemuanyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayangSemuanyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FD679A027FCF93700D3474F /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		3FE5633227FA9C2E00A0821A /* Onboarding2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding2.storyboard; sourceTree = "<group>"; };
 		3FE5633627FA9DBB00A0821A /* Onboarding3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding3.storyboard; sourceTree = "<group>"; };
 		3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding4.storyboard; sourceTree = "<group>"; };
@@ -145,6 +147,14 @@
 			path = SayangSemuanyaUITests;
 			sourceTree = "<group>";
 		};
+		3FD6799F27FCF8F900D3474F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3FD679A027FCF93700D3474F /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		3FE5632F27FA9BE500A0821A /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +201,7 @@
 		65CC1CD527FBF7DF00B452DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3FD6799F27FCF8F900D3474F /* Onboarding */,
 				65CC1CD627FBF87C00B452DD /* ListFood */,
 			);
 			path = Views;
@@ -343,6 +354,7 @@
 				65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */,
 				65CC1CD427FBEAD400B452DD /* Food.swift in Sources */,
 				3F63A5DA27F55FCD0038C286 /* AppDelegate.swift in Sources */,
+				3FD679A127FCF93700D3474F /* OnboardingViewController.swift in Sources */,
 				65CC1CD827FBF8C500B452DD /* ListFoodViewController.swift in Sources */,
 				3F63A5DC27F55FCD0038C286 /* SceneDelegate.swift in Sources */,
 			);

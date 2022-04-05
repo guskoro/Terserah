@@ -44,9 +44,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fM-yX-1CZ">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fM-yX-1CZ">
                                 <rect key="frame" x="176" y="665" width="64" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Lanjut"/>
                             </button>
@@ -59,6 +58,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jrf-ZI-ZrU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8fM-yX-1CZ" firstAttribute="centerX" secondItem="Jrf-ZI-ZrU" secondAttribute="centerX" id="GgA-xa-UGL"/>
+                            <constraint firstItem="8fM-yX-1CZ" firstAttribute="centerY" secondItem="Jrf-ZI-ZrU" secondAttribute="centerY" id="qnF-Px-VJc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gsU-GT-dD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
