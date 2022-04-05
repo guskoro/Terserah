@@ -16,6 +16,16 @@ class ListFoodViewController: UIViewController {
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
+        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000)
     ]
     
