@@ -22,6 +22,7 @@
 		65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */; };
 		65CC1CA227FB200F00B452DD /* FoodListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */; };
 		65CC1CD427FBEAD400B452DD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1CD327FBEAD400B452DD /* Food.swift */; };
+		65CC1CD827FBF8C500B452DD /* ListFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1CD727FBF8C500B452DD /* ListFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewCell.swift; sourceTree = "<group>"; };
 		65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListTableViewCell.xib; sourceTree = "<group>"; };
 		65CC1CD327FBEAD400B452DD /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		65CC1CD727FBF8C500B452DD /* ListFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		3F63A5D827F55FCD0038C286 /* SayangSemuanya */ = {
 			isa = PBXGroup;
 			children = (
+				65CC1CD527FBF7DF00B452DD /* Views */,
 				65CC1CD227FBEAC100B452DD /* Models */,
 				3FE5632F27FA9BE500A0821A /* Onboarding */,
 				65CC1C9C27FB1F9500B452DD /* CustomViews */,
@@ -183,6 +186,22 @@
 				65CC1CD327FBEAD400B452DD /* Food.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		65CC1CD527FBF7DF00B452DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65CC1CD627FBF87C00B452DD /* ListFood */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65CC1CD627FBF87C00B452DD /* ListFood */ = {
+			isa = PBXGroup;
+			children = (
+				65CC1CD727FBF8C500B452DD /* ListFoodViewController.swift */,
+			);
+			path = ListFood;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +343,7 @@
 				65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */,
 				65CC1CD427FBEAD400B452DD /* Food.swift in Sources */,
 				3F63A5DA27F55FCD0038C286 /* AppDelegate.swift in Sources */,
+				65CC1CD827FBF8C500B452DD /* ListFoodViewController.swift in Sources */,
 				3F63A5DC27F55FCD0038C286 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
