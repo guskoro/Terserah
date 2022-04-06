@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 struct OnboardingSlide {
-    let tittle: String
+    let title: String
     let description: String
     let image: UIImage
 }
