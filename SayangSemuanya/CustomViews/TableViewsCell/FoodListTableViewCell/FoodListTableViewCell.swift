@@ -27,17 +27,11 @@ class FoodListTableViewCell: UITableViewCell {
     @IBAction func buttonClicked(_ sender: Any) {
         if toggleButtonChecked == false {
             toggleButtonChecked = true
-            customizeButtonSelected()
+            toggleButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
         } else {
             toggleButtonChecked = false
-            customizeButtonNotSelected()
+            toggleButton.setImage(UIImage(systemName: "heart"), for: .normal)
+            
         }
-    }
-    
-    func customizeButtonSelected(){
-        toggleButton.setTitleColor(.blue, for: .normal)
-    }
-    func customizeButtonNotSelected(){
-        toggleButton.setTitleColor(.orange, for: .normal)
     }
 }
