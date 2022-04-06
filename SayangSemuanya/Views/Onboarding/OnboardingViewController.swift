@@ -27,9 +27,6 @@ class OnboardingViewController: UIViewController {
             OnboardingSlide(title: "Hi !", description: "Gabisa Makan Apa?", image:  #imageLiteral(resourceName: "OnGround1"))
         ]
     }
-    
-    @IBAction func nextButtonClicked(_ sender: UIButton) {
-    }
 }
 
 extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDataSource {
