@@ -20,9 +20,6 @@
 		3FD679A427FCFC3000D3474F /* UiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD679A327FCFC3000D3474F /* UiViewExtension.swift */; };
 		3FD679A627FCFD8200D3474F /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD679A527FCFD8200D3474F /* OnboardingSlide.swift */; };
 		3FD679A827FD042600D3474F /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD679A727FD042500D3474F /* OnboardingCollectionViewCell.swift */; };
-		3FE5633327FA9C2E00A0821A /* Onboarding2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633227FA9C2E00A0821A /* Onboarding2.storyboard */; };
-		3FE5633727FA9DBB00A0821A /* Onboarding3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633627FA9DBB00A0821A /* Onboarding3.storyboard */; };
-		3FE5633927FA9DC500A0821A /* Onboarding4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */; };
 		65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */; };
 		65CC1CA227FB200F00B452DD /* FoodListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */; };
 		65CC1CD427FBEAD400B452DD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1CD327FBEAD400B452DD /* Food.swift */; };
@@ -64,9 +61,6 @@
 		3FD679A327FCFC3000D3474F /* UiViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewExtension.swift; sourceTree = "<group>"; };
 		3FD679A527FCFD8200D3474F /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		3FD679A727FD042500D3474F /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
-		3FE5633227FA9C2E00A0821A /* Onboarding2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding2.storyboard; sourceTree = "<group>"; };
-		3FE5633627FA9DBB00A0821A /* Onboarding3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding3.storyboard; sourceTree = "<group>"; };
-		3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding4.storyboard; sourceTree = "<group>"; };
 		65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewCell.swift; sourceTree = "<group>"; };
 		65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListTableViewCell.xib; sourceTree = "<group>"; };
 		65CC1CD327FBEAD400B452DD /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
@@ -124,7 +118,6 @@
 				3FD679A227FCFC0C00D3474F /* Extensions */,
 				65CC1CD527FBF7DF00B452DD /* Views */,
 				65CC1CD227FBEAC100B452DD /* Models */,
-				3FE5632F27FA9BE500A0821A /* Onboarding */,
 				65CC1C9C27FB1F9500B452DD /* CustomViews */,
 				3F63A5D927F55FCD0038C286 /* AppDelegate.swift */,
 				3F63A5DB27F55FCD0038C286 /* SceneDelegate.swift */,
@@ -169,16 +162,6 @@
 				3FD679A327FCFC3000D3474F /* UiViewExtension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		3FE5632F27FA9BE500A0821A /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				3FE5633227FA9C2E00A0821A /* Onboarding2.storyboard */,
-				3FE5633627FA9DBB00A0821A /* Onboarding3.storyboard */,
-				3FE5633827FA9DC400A0821A /* Onboarding4.storyboard */,
-			);
-			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		65CC1C9C27FB1F9500B452DD /* CustomViews */ = {
@@ -339,10 +322,7 @@
 				3F63A5E627F55FD10038C286 /* LaunchScreen.storyboard in Resources */,
 				3F63A5E327F55FD10038C286 /* Assets.xcassets in Resources */,
 				65CC1CA227FB200F00B452DD /* FoodListTableViewCell.xib in Resources */,
-				3FE5633327FA9C2E00A0821A /* Onboarding2.storyboard in Resources */,
 				3F63A5E127F55FCD0038C286 /* Main.storyboard in Resources */,
-				3FE5633927FA9DC500A0821A /* Onboarding4.storyboard in Resources */,
-				3FE5633727FA9DBB00A0821A /* Onboarding3.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
