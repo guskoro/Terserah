@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Wdg-IM-Liy">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -165,7 +165,7 @@
             </objects>
             <point key="canvasLocation" x="1232" y="-237"/>
         </scene>
-        <!--Item-->
+        <!--Food-->
         <scene sceneID="Rc6-5a-lS1">
             <objects>
                 <viewController storyboardIdentifier="ListFoodViewController" id="EYe-Jm-GZ2" customClass="ListFoodViewController" customModule="SayangSemuanya" customModuleProvider="target" sceneMemberID="viewController">
@@ -222,7 +222,7 @@
                         <viewLayoutGuide key="safeArea" id="DXc-Vl-dec"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="list.dash" catalog="system" id="wve-d0-mLw"/>
+                    <tabBarItem key="tabBarItem" title="Food" image="list.dash" catalog="system" id="wve-d0-mLw"/>
                     <navigationItem key="navigationItem" id="iG4-8h-I4Z"/>
                     <connections>
                         <outlet property="tableView" destination="2IN-B6-SIU" id="Dcz-1G-BnK"/>
@@ -232,11 +232,11 @@
             </objects>
             <point key="canvasLocation" x="389.85507246376812" y="1299.1071428571429"/>
         </scene>
-        <!--Item-->
+        <!--Whistlist-->
         <scene sceneID="WL1-Qt-umI">
             <objects>
                 <navigationController id="7W9-ZX-pok" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="PbX-Ir-Gdd"/>
+                    <tabBarItem key="tabBarItem" title="Whistlist" image="heart" catalog="system" id="PbX-Ir-Gdd"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BRn-FS-shA">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
