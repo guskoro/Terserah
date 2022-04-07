@@ -9,9 +9,9 @@ import UIKit
 
 class FoodDetailViewController: UIViewController {
 
+  
     @IBOutlet var wishList: UIButton!
-    var toggleButtonChecked = false
-    
+    var cek = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,16 +19,15 @@ class FoodDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func wishList(_ sender: Any) {
-        if toggleButtonChecked == false {
-            toggleButtonChecked = true
+    @IBAction func addWishList(_ sender: UIButton) {
+        if cek == false {
+            cek = true
             wishList.setImage(UIImage(systemName: "heart.fill"), for: .normal)
         } else {
-            toggleButtonChecked = false
+            cek = false
             wishList.setImage(UIImage(systemName: "heart"), for: .normal)
             
         }
     }
     
-
 }
