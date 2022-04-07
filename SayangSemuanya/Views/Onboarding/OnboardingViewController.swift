@@ -46,7 +46,7 @@ class OnboardingViewController: UIViewController {
     // Action for clicked next button on Onboarding Page
     @IBAction func nextButtonClicked(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
-            let controller = storyboard? .instantiateViewController(withIdentifier: "FoodList") as! UITabBarController
+            let controller = storyboard? .instantiateViewController(withIdentifier: "FoodList") as! UITabBarController; controller.modalPresentationStyle = .fullScreen
             
             present(controller, animated: true, completion: nil)
         } else {
