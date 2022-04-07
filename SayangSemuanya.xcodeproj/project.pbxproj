@@ -20,6 +20,8 @@
 		3FD679A427FCFC3000D3474F /* UiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD679A327FCFC3000D3474F /* UiViewExtension.swift */; };
 		3FD679A627FCFD8200D3474F /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD679A527FCFD8200D3474F /* OnboardingSlide.swift */; };
 		3FD679A827FD042600D3474F /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD679A727FD042500D3474F /* OnboardingCollectionViewCell.swift */; };
+		65229BA527FEE9AB0067F646 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65229BA427FEE9AB0067F646 /* FoodDetailViewController.swift */; };
+		65229BA727FEEBFB0067F646 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65229BA627FEEBFB0067F646 /* UIViewController+Extension.swift */; };
 		65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */; };
 		65CC1CA227FB200F00B452DD /* FoodListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */; };
 		65CC1CD427FBEAD400B452DD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CC1CD327FBEAD400B452DD /* Food.swift */; };
@@ -61,6 +63,8 @@
 		3FD679A327FCFC3000D3474F /* UiViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiViewExtension.swift; sourceTree = "<group>"; };
 		3FD679A527FCFD8200D3474F /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		3FD679A727FD042500D3474F /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		65229BA427FEE9AB0067F646 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		65229BA627FEEBFB0067F646 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		65CC1C9F27FB200F00B452DD /* FoodListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewCell.swift; sourceTree = "<group>"; };
 		65CC1CA027FB200F00B452DD /* FoodListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListTableViewCell.xib; sourceTree = "<group>"; };
 		65CC1CD327FBEAD400B452DD /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
@@ -160,8 +164,17 @@
 			isa = PBXGroup;
 			children = (
 				3FD679A327FCFC3000D3474F /* UiViewExtension.swift */,
+				65229BA627FEEBFB0067F646 /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65229BA327FEE9790067F646 /* FoodDetails */ = {
+			isa = PBXGroup;
+			children = (
+				65229BA427FEE9AB0067F646 /* FoodDetailViewController.swift */,
+			);
+			path = FoodDetails;
 			sourceTree = "<group>";
 		};
 		65CC1C9C27FB1F9500B452DD /* CustomViews */ = {
@@ -201,6 +214,7 @@
 		65CC1CD527FBF7DF00B452DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				65229BA327FEE9790067F646 /* FoodDetails */,
 				3FD6799F27FCF8F900D3474F /* Onboarding */,
 				65CC1CD627FBF87C00B452DD /* ListFood */,
 			);
@@ -349,6 +363,8 @@
 			files = (
 				3F63A5DE27F55FCD0038C286 /* ViewController.swift in Sources */,
 				65CC1CA127FB200F00B452DD /* FoodListTableViewCell.swift in Sources */,
+				65229BA727FEEBFB0067F646 /* UIViewController+Extension.swift in Sources */,
+				65229BA527FEE9AB0067F646 /* FoodDetailViewController.swift in Sources */,
 				65CC1CD427FBEAD400B452DD /* Food.swift in Sources */,
 				3F63A5DA27F55FCD0038C286 /* AppDelegate.swift in Sources */,
 				3FD679A127FCF93700D3474F /* OnboardingViewController.swift in Sources */,
