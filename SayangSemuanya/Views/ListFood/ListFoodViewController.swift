@@ -13,10 +13,6 @@ class ListFoodViewController: UIViewController {
     
     var foods: [Food] = [
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
-        .init(id: "id1", name: "Gudeg", description: "Makanan Khas Jogja", price: 50000),
-        .init(id: "id1", name: "Lawar", description: "Makanan Khas Bali", price: 50000),
-        .init(id: "id1", name: "Penyet", description: "SSeperti otakku di penyet xcode", price: 50000),
-        .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
         .init(id: "id1", name: "Sate Ayam", description: "Sate ayam blablablablbablbablab  ahabjbajba", price: 50000),
