@@ -15,7 +15,7 @@ extension UIViewController {
     }
     
     static func instantiate() -> Self{
-        print("instantiate")
+        //print("instantiate")
         print(identifier)
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         return storyBoard.instantiateViewController(identifier: identifier) as! Self

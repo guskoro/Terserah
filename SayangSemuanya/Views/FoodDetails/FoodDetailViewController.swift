@@ -9,7 +9,6 @@ import UIKit
 
 class FoodDetailViewController: UIViewController {
 
-  
     @IBOutlet var wishList: UIButton!
     var cek = false
     
@@ -19,15 +18,13 @@ class FoodDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func addWishList(_ sender: UIButton) {
+    @IBAction func wishList(_ sender: Any) {
         if cek == false {
+//            print("change")
             cek = true
             wishList.setImage(UIImage(systemName: "heart.fill"), for: .normal)
         } else {
-            cek = false
             wishList.setImage(UIImage(systemName: "heart"), for: .normal)
-            
         }
     }
-    
 }

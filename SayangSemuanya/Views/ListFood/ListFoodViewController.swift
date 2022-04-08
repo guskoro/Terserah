@@ -49,7 +49,7 @@ extension ListFoodViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("pressed")
+        //print("pressed")
         //let controller = FoodDetailViewController.instantiate()
         //navigationController?.pushViewController(controller, animated: true)
         //navigationController?.present(controller, animated: true, completion: nil)
