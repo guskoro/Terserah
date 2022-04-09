@@ -38,8 +38,8 @@ class OnboardingViewController: UIViewController {
         // Data onboarding page displayed here
         slides = [
             OnboardingSlide(title: "Hi !", description: "Kenalan Yuk", image: #imageLiteral(resourceName: "OnGround1")),
-            OnboardingSlide(title: "Hi !", description: "Vegan Ngga?", image: #imageLiteral(resourceName: "OnGround1")),
-            OnboardingSlide(title: "Hi !", description: "Gabisa Makan Apa?", image:  #imageLiteral(resourceName: "OnGround1"))
+            OnboardingSlide(title: "Hi !", description: "Vegan Ngga?", image: #imageLiteral(resourceName: "Vegan")),
+            OnboardingSlide(title: "Hi !", description: "Gabisa Makan Apa?", image:  #imageLiteral(resourceName: "Intolerant"))
         ]
     }
     

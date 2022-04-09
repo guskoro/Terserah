@@ -9,4 +9,8 @@ import UIKit
 
 class ProfileCollectionViewCell: UICollectionViewCell {
     
+    @IBAction func backButtonNav(_ sender: UIBarButtonItem) {
+
+
+    }
 }
