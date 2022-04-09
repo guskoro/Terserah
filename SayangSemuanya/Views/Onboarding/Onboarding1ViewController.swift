@@ -15,6 +15,7 @@ class Onboarding1ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    // next page button
     @IBAction func nextButtonClicked(_ sender: UIButton) {
         let controller = storyboard? .instantiateViewController(identifier: "VeganNC") as! UINavigationController
         controller.modalPresentationStyle = .fullScreen
