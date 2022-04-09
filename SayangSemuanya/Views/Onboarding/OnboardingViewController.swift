@@ -75,6 +75,7 @@ extension OnboardingViewController: UICollectionViewDelegate, UICollectionViewDa
         return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
     }
     
+    // halo ini komen
     // size for scrolling onboarding page
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let width = scrollView.frame.width

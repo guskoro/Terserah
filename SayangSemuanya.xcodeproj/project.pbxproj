@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F19A8DE27FFE1CA009A409F /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F19A8DD27FFE1CA009A409F /* ProfileCollectionViewCell.swift */; };
 		3F63A5DA27F55FCD0038C286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63A5D927F55FCD0038C286 /* AppDelegate.swift */; };
 		3F63A5DC27F55FCD0038C286 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63A5DB27F55FCD0038C286 /* SceneDelegate.swift */; };
 		3F63A5DE27F55FCD0038C286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63A5DD27F55FCD0038C286 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F19A8DD27FFE1CA009A409F /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		3F63A5D627F55FCD0038C286 /* SayangSemuanya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayangSemuanya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F63A5D927F55FCD0038C286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F63A5DB27F55FCD0038C286 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			children = (
 				3FD679A027FCF93700D3474F /* OnboardingViewController.swift */,
 				3FD679A727FD042500D3474F /* OnboardingCollectionViewCell.swift */,
+				3F19A8DD27FFE1CA009A409F /* ProfileCollectionViewCell.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				3F63A5DA27F55FCD0038C286 /* AppDelegate.swift in Sources */,
 				3FD679A127FCF93700D3474F /* OnboardingViewController.swift in Sources */,
 				65CC1CD827FBF8C500B452DD /* ListFoodViewController.swift in Sources */,
+				3F19A8DE27FFE1CA009A409F /* ProfileCollectionViewCell.swift in Sources */,
 				3FD679A427FCFC3000D3474F /* UiViewExtension.swift in Sources */,
 				3FD679A827FD042600D3474F /* OnboardingCollectionViewCell.swift in Sources */,
 				3FD679A627FCFD8200D3474F /* OnboardingSlide.swift in Sources */,
